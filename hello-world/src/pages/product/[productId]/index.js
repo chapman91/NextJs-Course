@@ -4,7 +4,7 @@ function ProductDetail() {
     // Call the use Router hook and store it in a var
     const router = useRouter()
     // ProductId on the query segment corresponds to the productId file in the 'Pages' folder
-    const productId = router.query.productid
+    const productId = router.query.productId
     return <h1>Details about product {productId}</h1>
 }
   
